@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/name.css" />
+    <link rel="stylesheet" href="css/quote.css" />
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/toDo.css" />
+    <link rel="stylesheet" href="css/weather.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h1 id="clock">00:00:00</h1>
+
+    <form id="form-name" action="">
+      <input
+        class="hidden"
+        type="text"
+        placeholder="Type your name here"
+        required
+      />
+      <h2 class="hidden"></h2>
+    </form>
+
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <form id="form-toDo">
+      <label>TODO-List</label>
+      <input type="text" placeholder="Write a to Do here" />
+      <ul></ul>
+    </form>
+
+    <script src="js/clock.js"></script>
+    <script src="js/name.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/toDo.js"></script>
+
+    <script src="js/weather.js"></script>
+  </body>
+</html>

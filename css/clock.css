@@ -1,0 +1,9 @@
+#clock{
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translate(0, -50%); */
+    /* vertical-align: middle; */
+}
